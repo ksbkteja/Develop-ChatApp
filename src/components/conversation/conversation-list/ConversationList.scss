@@ -1,0 +1,11 @@
+@import '../../../styles/_colors';
+
+#conversation-list {
+    grid-area: conversation-list;
+    background: $accent-color;
+    overflow-y: scroll;
+    width: 28%;
+    margin-top: -71px;
+    margin-left: 198px;
+    border-radius: 10px 0 0 0;
+}

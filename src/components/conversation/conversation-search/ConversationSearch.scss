@@ -1,0 +1,34 @@
+@import '../../../styles/_colors';
+
+#search-container {
+    display: flex;
+    // align-items: center;
+    grid-area: search-container;
+    background: $primary-color;
+    padding: 0 20px;
+    border-radius: 10px 0 0 0;
+    box-shadow: 0 1px 3px -1px $shadow-box-color;
+    z-index: 1;
+    width: 72%;
+    height: 95vh;
+    color:white;
+    
+    // > .image{
+    //     align-items: center;
+    //     display: flex;
+    //     padding-top: 25px;
+    //     direction: col;
+    //     flex-direction: column;
+    // }
+}
+.image{
+    align-items: center;
+    display: flex;
+    padding-top: 25px;
+    direction: col;
+    flex-direction: column;
+}
+.btn{
+    color: #fff;
+    background: $primary-color;
+}
